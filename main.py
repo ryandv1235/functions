@@ -8,6 +8,11 @@ def multiplySelf(number):
 def getHalf(number):
 	return number / 2
 
+def splitString(text):
+	return text.split()
+
 print(reverseString("hey"))
 print(multiplySelf(5))
 print(getHalf(12))
+print(splitString("Hey ik ben Ryan"))
+
